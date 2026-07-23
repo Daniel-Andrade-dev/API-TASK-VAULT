@@ -1,0 +1,21 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# --- Ambiente virtual ---
+venv/
+.venv/
+
+# --- Banco de dados local ---
+*.db
+*.sqlite
+*.sqlite3
+
+
+# --- IDEs e editores ---
+.vscode/
+.idea/
+*.swp
