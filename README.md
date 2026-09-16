@@ -113,17 +113,3 @@ Corpo da requisição:
 ```
 
 > A `descricao` é opcional e pode ser enviada vazia.
-
----
-
-## 📖 O que é uma API?
-
-**API** (*Application Programming Interface* — Interface de Programação de Aplicações) é um conjunto de regras que permite que dois sistemas diferentes se comuniquem entre si. Na prática, ela funciona como um "garçom": o cliente (front-end, app mobile, outro sistema) faz um pedido (requisição), a API leva esse pedido até o servidor/banco de dados, e retorna a resposta pronta para o cliente.
-
-Neste projeto, a **TaskVault API** é uma **API REST**, o que significa que:
-
-- Se comunica através do protocolo HTTP, usando verbos como `GET`, `POST`, `PUT` e `DELETE`;
-- Troca dados no formato **JSON**;
-- É **stateless** (sem estado): cada requisição precisa carregar todas as informações necessárias (por isso o uso do token JWT a cada chamada, já que o servidor não "lembra" que você fez login antes).
-
-Esse modelo é o padrão mais usado atualmente para construir back-ends que servem aplicações web, mobile e outros sistemas.
